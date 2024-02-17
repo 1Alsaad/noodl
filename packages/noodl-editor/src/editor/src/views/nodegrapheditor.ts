@@ -2704,9 +2704,9 @@ export class NodeGraphEditor extends View {
     }
 
     // Paint multiselect box
-    if (this.selector.nodes.length > 0 && !this.selector.nodes[0].selected) {
-      this.paintMultiselectBox(ctx, this.calculateNodesAABB(this.selector.nodes));
-    }
+    //if (this.selector.nodes.length > 0 && !this.selector.nodes[0].selected) {
+      //this.paintMultiselectBox(ctx, this.calculateNodesAABB(this.selector.nodes));
+    //}
 
     // if (window._debugNodeGraphAttachPoints) {
     //   ctx.save();
